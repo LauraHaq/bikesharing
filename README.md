@@ -12,36 +12,37 @@ This is analysis of New York City's CitiBike for 2019 to help visualize its data
  - Tableau
 
 ## Results
-- Tripduration transformed:
+#### Using Jupyter Notebook
+- Tripduration data type changed to datetime:
 
 ![here](https://github.com/LauraHaq/bikesharing/blob/main/images/convert_datetime.png)
 
-    - Above image shows tripduration data type was changed into datetime by 
-    
+- Transformed dataframe exported into a new file witout index:
 
-- Dataframe exported into a new file witout index. 
 ![here](https://github.com/LauraHaq/bikesharing/blob/main/images/output_part2.png)
 
-- Line graph of all users' duration with an hour filter.
+#### Using Tableau Public
 ![here](https://github.com/LauraHaq/bikesharing/blob/main/images/tripdurations.png)
+Line graph of all users' duration with an hour filter. Relevant data is in hour "0" because all trip durations were listed under 1 hour to get needed data. Line graph peaks at a bike ride of 5 minutes. 
 
-- MultiLine graph of each gender of duration with gender and hour filters. 
 ![here](https://github.com/LauraHaq/bikesharing/blob/main/images/tripdurations_gender.png)
-
-- Heatmap of bike trips by hour by day of week.
+MultiLine graph of each gender of duration with gender and hour filters. Also filtered down to hour "0" to show rides lest than an hour long. Male and Female spike at five minute care rides. Unknown gender types show no peaks in thee data but that it rises at five minutes then drops at 30 minute. 
 
 ![here](https://github.com/LauraHaq/bikesharing/blob/main/images/trips_by_weekday.png)
 
-- Heatmap shows number of trips by gender for each hour of each day of the week with gender filter.
+Heatmap of bike trips by hour for each day of the week. The maps shows very high usage at 8:00 am and 5-6:00pm Monday through Friday. Saturtday and Sundays show there is an increase at 9:00am the bikes stay steady in use until drops off at 8pm. 
+
 ![here](https://github.com/LauraHaq/bikesharing/blob/main/images/tripts_by_gender.png)
+Heatmap shows number of trips by gender for each hour of each day of the week with gender filter. Shows a strong heat reading with high number of rides for "MALES" versus "FEMALES" or "UNKNOWN". For those who reported a gender showed the same pattern as previous heat map with highest usage during commuting hours of 8am and 5pm while "UNKOWN" shows a strong usage during the visiting hours to New York City on the weekends.
 
-- Heatmap shows number of trips for each usertype and gender for each day with user and gender filters.
 ![here](https://github.com/LauraHaq/bikesharing/blob/main/images/usertrips__gender_weekday.png)
+Heatmap shows number of trips for each usertype and gender for each day with user and gender filters. When filtering to "Customer" we learn that the peaks are now on the weekends. Also those who did not report thier gender had more usage on the weekends while both "MALES" and "FEMALES" showed highest uses during commute hours on the weekdays overall. 
 
-- Bar graph shows peak hours of August.
 ![here](https://github.com/LauraHaq/bikesharing/blob/main/images/Aug_peakHours.png)
+Bar graph shows peak hours of August. Clearly shows the spikes of use during commute hours. Also, there is a bar on each hour of the day. 
 
-- Map using geophraphical data to map ending locations of bike trips filter by birth year.
 ![here](https://github.com/LauraHaq/bikesharing/blob/main/images/End_locations.png)
+Map using geophraphical data to map ending locations of bike trips filter by birth year. Bikes are being utilized to access all areas of New York City for all areas of interest.
 
+## Summary
 
