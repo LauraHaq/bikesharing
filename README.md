@@ -12,6 +12,9 @@ This is analysis of New York City's CitiBike for 2019 to help visualize its data
  - Tableau
 
 ## Results
+#### Completed Dashboard
+- [link to dashboard](https://public.tableau.com/app/profile/laura.haq/viz/CitiBikeChallenge_16331478001120/CitiBikeNYCAnalysis?publish=yes)
+
 #### Using Jupyter Notebook
 - Tripduration data type changed to datetime:
 
