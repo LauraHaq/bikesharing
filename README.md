@@ -48,4 +48,4 @@ Bar graph shows peak hours of August. Clearly shows the spikes of use during com
 Map using geophraphical data to map ending locations of bike trips filter by birth year. Bikes are being utilized to access all areas of New York City for all areas of interest.
 
 ## Summary
-
+All visusalizations show that in terms of people taking part of the bike share program that CitiBike Ride Share is a success in New York City. This is due to that with only 13,983 BikeIDs in a Text box in Tableau with "Count(Dintinct)" selected there were 2,344,244 total rides reported in 2019. The reason why 13,983 bikes could provide this many rides is due to what is seen in the line chart of the bikes being used for only minutes for each duration of trip regardless of gender. The User Trips by Gender per Weekday initially protrays that Male Subscribers overpowering the heatmap. In order to see what is happening in other demographics we have to filter out to each box seperately. Looking at Usertypes, the "Subsribers" continues to portray highest usage during the weekdays. Meaning this are workers and students. "Customers" show opposite with largest usage du
